@@ -1,0 +1,11 @@
+.checkbox{
+  display:inline-block;
+  margin:10px;
+  padding:6px;
+  background:#eee;
+  border-radius: 4px;
+}
+.checkedActive{
+  background:red;
+  color:#fff;
+}

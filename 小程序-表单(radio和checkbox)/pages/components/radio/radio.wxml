@@ -1,0 +1,15 @@
+<!-- 
+
+  radio取值有要求的话,不是value
+
+  例如
+  1. 第9行:value改成id
+  2. 第十行:radio标签里的item.value改成item.id
+  3. radio.js: 41、51行value(key)改成id
+ -->
+
+<radio-group class="radio-group" bindchange="radioChange">
+  <label class="radio" wx:for="{{items}}" wx:key="" class="{{value == item.value ? 'bc_green white': 'green'}}">
+    <radio value="{{item.value}}"/> {{item.value}}
+  </label>
+</radio-group>

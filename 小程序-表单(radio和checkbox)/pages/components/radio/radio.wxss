@@ -1,0 +1,33 @@
+page {
+  background: #f8f8f8;
+}
+
+.radio-group radio {
+  display: none;
+}
+
+.green {
+  color: #09bb07;
+}
+
+.bc_green {
+  background-color: #09bb07;
+}
+
+.white {
+  color: #fff;
+}
+
+/* label均匀分布，文字居中 */
+
+label {
+  display: inline-block;
+  margin: 20rpx;
+  padding: 12rpx;
+  background: #eee;
+  border-radius: 8rpx;
+}
+
+label:last-child {
+  border-right: 0;
+}

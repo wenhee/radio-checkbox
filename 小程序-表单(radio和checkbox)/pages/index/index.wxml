@@ -1,0 +1,5 @@
+<!-- 默认选中,需要配置 checked=true -->
+<cbox data="{{items}}" bind:onCheckbox="onCheckbox"></cbox>
+
+<!-- 默认选中,需要配置 defaultVal="默认值" -->
+<rbox data="{{items}}" bind:onRadio="onRadio" defaultVal="USA"></rbox>

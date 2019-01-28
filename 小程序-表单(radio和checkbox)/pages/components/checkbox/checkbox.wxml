@@ -1,0 +1,5 @@
+<view wx:for="{{items}}" wx:key="{{index}}" data-id="{{index}}" class="checkbox {{item.checked?'checkedActive':''}}" bindtap='checkbox'>
+  <view>
+    {{item.value}}
+  </view>
+</view>
