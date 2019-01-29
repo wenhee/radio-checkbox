@@ -1,4 +1,7 @@
-# 小程序radio-checkbox自定义
+<p align="center"><a href="https://vuejs.org" target="_blank" rel="noopener noreferrer"><img width="100" src="https://www.playsort.cn/github/smallProgram/radioCheckbox/radiocheckbox.png" alt="radioCheckbox"></a></p>
+
+<h2 align="center">微信小程序radio-checkbox自定义</h2>
+
 radio/checkbox 自定义组件，方便扩展以及使用  
 [我的博客](https://www.cnblogs.com/cisum/ "Sunsin")
 ## 目前版本
